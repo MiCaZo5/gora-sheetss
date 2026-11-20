@@ -1,0 +1,35 @@
+
+{
+  "id": "gora-sheets",
+  "title": "Гора, упавшая со звезды: листы героев",
+  "description": "Кастомный лист героя для кампании «Гора, упавшая со звезды»: тема «Акварельный свиток», личный цвет героя, окно «Воспоминаний» и индикатор Ветра.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14.370"
+  },
+  "authors": [
+    { "name": "Мастер кампании" }
+  ],
+  "esmodules": ["scripts/main.mjs"],
+  "styles": ["styles/gora-sheets.css"],
+  "languages": [
+    { "lang": "ru", "name": "Русский", "path": "lang/ru.json" },
+    { "lang": "en", "name": "English", "path": "lang/en.json" }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.0.0"
+        }
+      }
+    ]
+  },
+  "manifest": "https://raw.githubusercontent.com/MiCaZo5/gora-sheetss/main/module.json",
+  "download": "https://github.com/MiCaZo5/gora-sheetss/releases/download/v1.0/gora-sheets.zip",
+  "flags": {}
+}
+
